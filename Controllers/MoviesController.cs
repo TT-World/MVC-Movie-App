@@ -48,6 +48,7 @@ namespace MvcMovie.Controllers
                 Movies = await movies.ToListAsync()
             };
 
+
             return View(movieGenreVM);
         }
 
